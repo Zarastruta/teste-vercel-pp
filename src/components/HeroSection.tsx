@@ -1,6 +1,6 @@
 import heroImg from "@/assets/hero-construction.jpg";
 
-const WHATSAPP_URL = "https://wa.me/+554898416893?text=Olá,%20quero%20solicitar%20um%20orçamento.";
+const WHATSAPP_URL = "https://wa.me/554898416893?text=Olá,%20quero%20solicitar%20um%20orçamento.";
 
 const HeroSection = () => {
   return (

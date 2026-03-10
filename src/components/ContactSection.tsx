@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/+554898416893?text=Olá,%20quero%20solicitar%20um%20orçamento.";
+const WHATSAPP_URL = "https://wa.me/554898416893?text=Olá,%20quero%20solicitar%20um%20orçamento.";
 
 const ContactSection = () => {
   return (

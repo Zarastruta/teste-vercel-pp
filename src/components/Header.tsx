@@ -1,7 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-const WHATSAPP_URL = "https://wa.me/+554898416893?text=Olá,%20quero%20solicitar%20um%20orçamento.";
+const WHATSAPP_URL = "https://wa.me/554898416893?text=Olá,%20quero%20solicitar%20um%20orçamento.";
 
 const navLinks = [
   { label: "Serviços", href: "#servicos" },
