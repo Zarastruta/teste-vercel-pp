@@ -1,14 +1,14 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-const WHATSAPP_URL = "https://wa.me/554898416893?text=Olá! Gostaria de solicitar um orçamento.";
+const WHATSAPP_URL = "https://wa.me/+554898416893?text=Olá,%20quero%20solicitar%20um%20orçamento.";
 
 const navLinks = [
-{ label: "Serviços", href: "#servicos" },
-{ label: "Obras", href: "#obras" },
-{ label: "Sobre", href: "#sobre" },
-{ label: "Processo", href: "#processo" },
-{ label: "Contato", href: "#contato" }];
+  { label: "Serviços", href: "#servicos" },
+  { label: "Obras", href: "#obras" },
+  { label: "Sobre", href: "#sobre" },
+  { label: "Processo", href: "#processo" },
+  { label: "Contato", href: "#contato" }];
 
 
 const Header = () => {
@@ -23,11 +23,11 @@ const Header = () => {
 
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((l) =>
-          <a
-            key={l.href}
-            href={l.href}
-            className="text-sm font-medium text-graphite-light hover:text-steel transition-colors">
-            
+            <a
+              key={l.href}
+              href={l.href}
+              className="text-sm font-medium text-graphite-light hover:text-steel transition-colors">
+
               {l.label}
             </a>
           )}
@@ -36,7 +36,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="bg-steel text-primary-foreground px-5 py-2.5 text-sm font-semibold rounded hover:bg-steel-dark transition-colors">
-            
+
             Solicitar orçamento
           </a>
         </nav>
@@ -45,30 +45,30 @@ const Header = () => {
           className="md:hidden text-graphite"
           onClick={() => setOpen(!open)}
           aria-label="Menu">
-          
+
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
       {open &&
-      <div className="md:hidden bg-card border-t border-border">
+        <div className="md:hidden bg-card border-t border-border">
           <nav className="container py-4 flex flex-col gap-4">
             {navLinks.map((l) =>
-          <a
-            key={l.href}
-            href={l.href}
-            onClick={() => setOpen(false)}
-            className="text-sm font-medium text-graphite-light hover:text-steel transition-colors">
-            
+              <a
+                key={l.href}
+                href={l.href}
+                onClick={() => setOpen(false)}
+                className="text-sm font-medium text-graphite-light hover:text-steel transition-colors">
+
                 {l.label}
               </a>
-          )}
+            )}
             <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-steel text-primary-foreground px-5 py-2.5 text-sm font-semibold rounded text-center hover:bg-steel-dark transition-colors">
-            
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-steel text-primary-foreground px-5 py-2.5 text-sm font-semibold rounded text-center hover:bg-steel-dark transition-colors">
+
               Solicitar orçamento
             </a>
           </nav>
