@@ -7,7 +7,16 @@ const AboutSection = () => {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-graphite mb-6">
             PratesPaiva Construções e Reformas
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+
+
+          <p className="text-muted-foreground text-lg leading-relaxed mb-6 font-medium">
+            Desde 2014, a PratesPaiva Construções e Reformas constrói uma história de solidez e confiança. Com mais de uma década de experiência, somos especialistas na execução de obras e serviços técnicos para edificações residenciais e prediais.
+          </p>
+          <p className="text-muted-foreground text-base leading-relaxed mb-12">
+            Nossa trajetória é marcada pelo compromisso inegociável com a qualidade técnica, organização e responsabilidade. Entregamos soluções completas — desde projetos estruturais até acabamentos refinados —, sempre priorizando o profissionalismo e a superação das expectativas de cada cliente.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left mb-16">
             <div className="bg-card p-8 rounded border border-border">
               <h3 className="font-display text-xl font-bold text-graphite mb-4">Nosso Propósito</h3>
               <p className="text-muted-foreground text-base leading-relaxed">
