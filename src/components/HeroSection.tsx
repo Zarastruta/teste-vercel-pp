@@ -19,20 +19,20 @@ const HeroSection = () => {
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary-foreground leading-[1.1]">
             <span className="text-steel">PRATES</span>PAIVA
             <br />
-            <span className="text-primary-foreground/80 text-2xl md:text-3xl lg:text-4xl font-medium">
-              Construções e Reformas
+            <span className="text-primary-foreground/90 text-2xl md:text-3xl lg:text-4xl font-medium tracking-wide">
+              Construímos confiança.
             </span>
           </h1>
 
-          <p className="mt-6 text-lg md:text-xl text-primary-foreground/70 max-w-lg leading-relaxed">
-            Transformamos espaços com qualidade, segurança e responsabilidade.
+          <p className="mt-6 text-lg md:text-xl text-primary-foreground/80 max-w-xl leading-relaxed">
+            Da reforma ao sonho realizado. Obras com responsabilidade, resultados com excelência.
           </p>
 
           <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-10 bg-steel text-primary-foreground px-8 py-4 text-base font-semibold rounded hover:bg-steel-dark transition-colors"
+            className="inline-block mt-10 bg-primary text-primary-foreground px-8 py-4 text-base font-semibold rounded hover:bg-primary/90 transition-colors"
           >
             Solicitar orçamento
           </a>

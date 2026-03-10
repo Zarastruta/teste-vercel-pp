@@ -7,19 +7,22 @@ const AboutSection = () => {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-graphite mb-6">
             PratesPaiva Construções e Reformas
           </h2>
-          <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-4">
-            A PratesPaiva Construções e Reformas atua no setor de construção e reformas desde 2014, 
-            acumulando mais de 11 anos de experiência na execução de obras e serviços técnicos em 
-            edificações residenciais e prediais.
-          </p>
-          <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-4">
-            Desde a sua fundação, a empresa trabalha com foco em qualidade técnica, organização e 
-            responsabilidade, oferecendo soluções completas em reformas, instalações e manutenção.
-          </p>
-          <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
-            Hoje a PratesPaiva soma mais de 11 anos de atuação no mercado, atendendo clientes com 
-            profissionalismo e compromisso com cada projeto.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+            <div className="bg-card p-8 rounded border border-border">
+              <h3 className="font-display text-xl font-bold text-graphite mb-4">Nosso Propósito</h3>
+              <p className="text-muted-foreground text-base leading-relaxed">
+                Transformar espaços com qualidade, segurança e comprometimento, oferecendo soluções
+                completas em construções e reformas que superam expectativas.
+              </p>
+            </div>
+            <div className="bg-card p-8 rounded border border-border">
+              <h3 className="font-display text-xl font-bold text-graphite mb-4">Nossa Visão</h3>
+              <p className="text-muted-foreground text-base leading-relaxed">
+                Ser reconhecida como referência em obras e reformas confiáveis na região até 2030,
+                entregando resultados de alto padrão com excelência técnica e atendimento diferenciado.
+              </p>
+            </div>
+          </div>
 
           <div className="mt-14 grid grid-cols-3 gap-8">
             {[
@@ -27,9 +30,9 @@ const AboutSection = () => {
               { value: "2014", label: "Fundada em" },
               { value: "100%", label: "Compromisso" },
             ].map((s) => (
-              <div key={s.label}>
-                <p className="font-display text-3xl md:text-4xl font-bold text-steel">{s.value}</p>
-                <p className="text-sm text-muted-foreground mt-1">{s.label}</p>
+              <div key={s.label} className="flex flex-col items-center">
+                <p className="font-display text-3xl md:text-4xl font-bold text-primary">{s.value}</p>
+                <p className="text-sm text-foreground mt-2 font-medium">{s.label}</p>
               </div>
             ))}
           </div>
