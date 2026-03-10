@@ -16,7 +16,7 @@ const ContactSection = () => {
 
         <a
           href={WHATSAPP_URL}
-          target="_top"
+          target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-[hsl(142,70%,40%)] text-primary-foreground px-10 py-5 text-lg font-semibold rounded hover:bg-[hsl(142,70%,35%)] transition-colors"
         >

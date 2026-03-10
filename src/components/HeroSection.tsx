@@ -30,7 +30,7 @@ const HeroSection = () => {
 
           <a
             href={WHATSAPP_URL}
-            target="_top"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-10 bg-primary text-primary-foreground px-8 py-4 text-base font-semibold rounded hover:bg-primary/90 transition-colors"
           >
