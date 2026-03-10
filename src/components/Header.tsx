@@ -33,7 +33,7 @@ const Header = () => {
           )}
           <a
             href={WHATSAPP_URL}
-            target="_top"
+            target="_blank"
             rel="noopener noreferrer"
             className="bg-steel text-primary-foreground px-5 py-2.5 text-sm font-semibold rounded hover:bg-steel-dark transition-colors">
 
@@ -65,7 +65,7 @@ const Header = () => {
             )}
             <a
               href={WHATSAPP_URL}
-              target="_top"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-steel text-primary-foreground px-5 py-2.5 text-sm font-semibold rounded text-center hover:bg-steel-dark transition-colors">
 
